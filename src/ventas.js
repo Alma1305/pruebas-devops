@@ -12,7 +12,7 @@ function calcularSubtotal(precio, cantidad) {
 
 function calcularDescuento(subtotal) {
     if (subtotal >= 500) {
-        return subtotal * 0.10;
+        return subtotal * 0.20;
     }
 
     return 0;
